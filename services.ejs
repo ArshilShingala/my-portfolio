@@ -1,0 +1,126 @@
+<!--  
+   File Name: services.ejs
+   Student’s Name: Arshil Shingala
+   StudentID: 301318550
+   Date: 09/24/2023
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Reset some default styles in browsers */
+         /* Reset */
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 1%;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Additional styles for services page */
+        .service {
+            display: flex;
+            
+            flex-direction: column;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+        }
+ 
+        .service .title {
+            font-size: 1.5rem;
+            margin-bottom: 1cm;
+            width: 100%;
+            text-align: center;
+        } 
+
+        .service-title
+        {
+            margin-bottom: 0.7cm;
+            text-align: center;
+            color: #137d17;
+            margin-left: 12cm;
+            font-size: 0.8cm;
+        }
+       
+        .content {
+            display: flex;
+            width: 100%;
+            margin-bottom: 0.5cm;
+        }
+
+        .service img {
+            border-radius: 25px;
+            margin-right: 20px;
+            height: 6cm;
+            width: 300px;
+        }
+
+        p {
+            font-size: 1rem;
+            margin-bottom: 1rem;
+            color: #555;
+        }
+
+      
+        h1 {
+            color: #4CAF50; /* Green */
+            text-align: center; /* Center the title */
+            font-family: cursive; /* Change the font style */
+            padding-bottom: 1cm;
+        }
+
+        p
+        {
+            margin-top: 1cm;
+        }
+    
+        footer
+      {
+        text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    background-color: #D4EFDF; /* Light Green */
+    padding: 10px;
+    border-radius: 5px;
+      }
+
+
+</style>
+</head>
+<body>
+    <%- include('partials/header') %>
+    <div class="container">
+        <h1 class="title" style="font-family: Arial, sans-serif;">Services</h1>
+        <div class="service">
+            <div class="service-title">Web Development</div>
+            
+            <div class="content">
+                <img src="/images/web.jpg" alt="Service 1"  width="150">
+                <p>In the realm of web development, my expertise shines brightly, backed by a comprehensive understanding of HTML, CSS, and JavaScript, the building blocks of the web. I have a deep knowledge of Node.js, which powers robust backend solutions, ensuring seamless data handling and optimal performance. My skills in React.js are leveraged to craft dynamic, user-friendly, and efficient frontend interfaces, ensuring your website or web application not only looks good but works flawlessly. Whether it's creating a beautiful, responsive website or a powerful web application, I merge creativity with functionality, ensuring every line of code I write translates into a seamless, engaging, and effective user experience. Trust me to bring your vision to life, ensuring each aspect of your website or application is nothing short of exceptional. Your web development needs are in skilled hands, ensuring every project delivered is tailored to meet and exceed your expectations.
+                </p>
+            </div>
+            <div class="service-title">Data Management</div>
+            
+            <!-- Service Content -->
+            <div class="content">
+                <img src="/images/data.jpg" alt="Service 2" width="150px" >
+                <p>Ensure the integrity, availability, and confidentiality of your critical data with my comprehensive data management services. 
+                    Benefit from effective data storage, backup, and recovery solutions, ensuring your data remains secure, accessible, and optimized for performance.
+                    My services encompass data processing, transformation, and integration, facilitating seamless data flow and utilization across your operations. 
+                    Capitalize on strategic data insights with advanced data analytics, enhancing decision-making and driving business growth.
+                </p>
+            </div>
+        </div> 
+        </div>
+        <footer>Thank you for visiting my portfolio!</footer>
+</body>
+</html>

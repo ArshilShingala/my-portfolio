@@ -1,0 +1,115 @@
+<!--  
+   File Name: about.ejs
+   Student’s Name: Arshil Shingala
+   StudentID: 301318550
+   Date: 09/24/2023
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #E8F5E9;
+            color: #333;
+            /*padding: 20px;*/
+            padding: 1%;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #2E7D32;
+        }
+        .navbar {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .navbar a {
+            color: white;
+            margin: 0 15px;
+        }
+        header {
+            text-align: center;
+            margin: 20px 0;
+            margin-bottom: 1cm;
+        }
+      
+        .main-content {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .img-thumbnail {
+            border: 2px solid #4CAF50;
+            border-radius: 10px;
+            margin: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8em;
+            background-color: #C8E6C9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .container main {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+            margin-bottom: 0.8cm;
+            margin-top: 0.5cm;
+
+        }
+        .photo {
+            width: 25%;
+            border-radius: 80%;
+            border: 2px solid #4CAF50;
+        
+            float: left;
+            margin-left: 1cm;
+            margin-right: 0.5cm;
+            margin-bottom: 0.5cm;
+        }
+        .details {
+            margin-left: 5cm;
+        }
+        p{
+            margin-top: 0.5cm;
+        }
+    </style>
+</head>
+<body>
+    <%- include('partials/header') %>
+    <div class="container">
+        <h1 class="title">About Me</h1>
+        <div class="about-me">
+            
+            <img class="photo" src="/images/photo1.png">
+            <div class="details">
+                <p>Hello, I'm Arshil Shingala, a passionate web developer based in Toronto.</p>
+               
+                <p>In the dynamic world of web development, I stand out as a beacon of innovation, creativity, and meticulous precision. I specialize in creating beautiful, responsive, and user-friendly websites that not only attract viewers but also engage them, ensuring they get the seamless online experience they deserve. My skill set is robust, grounded on a solid foundation of HTML, CSS, and JavaScript. This strong base empowers me to craft websites that are not only visually stunning but also inherently functional and reliable.</p>
+                 <p>Beyond the basics, my expertise expands to Node.js and React, allowing me to construct robust back-end solutions that enhance website performance and ensure efficient data management. My adeptness in these advanced technologies contributes to dynamic and high-functioning front-end interfaces, offering users a seamless, compelling, and intuitive online experience.</p>
+            <p>My passion for web development is fuelled by a desire to push the boundaries, continuously honing my skills and staying abreast of the latest industry trends and technologies. This commitment to excellence and innovation translates into the websites I develop, ensuring they are cutting-edge, compliant with the latest standards, and future-ready.</p>
+                <p>But beyond the codes and algorithms, I believe in understanding your unique needs, objectives, and vision. This collaborative approach ensures that every project I undertake is tailored to your specific requirements, delivering a final product that not only meets but surpasses your expectations. Your online presence is a vital extension of your brand, and I am dedicated to enhancing it with a website that speaks volumes about your values, services, and commitment to quality and excellence. Entrust your web development needs to me, and let’s embark on a journey to elevate your digital footprint, ensuring your website stands out as a testament to unmatched quality and innovation in the vast expanse of the digital realm.</p>
+        </div>
+        </div>
+    </div>
+    <footer>Thank you for visiting my portfolio!</footer>
+</body>
+</html>

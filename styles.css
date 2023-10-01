@@ -1,0 +1,96 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #E8F5E9; /* Light Green */
+    color: #333;
+    padding: 20px;
+}
+
+a {
+    color: #4CAF50; /* Green */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2E7D32; /* Dark Green */
+}
+
+/* Navigation */
+.navbar {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.logo {
+    width: 100px;
+    border: 3px solid #4CAF50; /* Green */
+    border-radius: 50%; /* Circular Logo */
+}
+
+/* Main Content */
+.main-content {
+    background-color: #f0f0f0; /* Off White */
+    padding: 20px;
+    border-radius: 10px; /* Rounded Corners */
+    margin: 20px 0;
+}
+
+/* Images */
+.img-thumbnail {
+    border: 2px solid #4CAF50; /* Green */
+    border-radius: 10px; /* Rounded Corners */
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+    background-color: #C8E6C9; /* Light Green */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Container and Main Section Styling */
+.container main {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Project Section Styling */
+.project {
+    background-color: #E8F5E9; /* Light Green */
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+
+
+h1 {
+    color: #4CAF50; /* Green */
+}

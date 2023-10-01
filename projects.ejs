@@ -1,0 +1,134 @@
+<!--  
+   File Name: projects.ejs
+   Student’s Name: Arshil Shingala
+   StudentID: 301318550
+   Date: 09/24/2023
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #E8F5E9; /* Light Green */
+            color: #333;
+            padding: 1%;
+        }
+    
+        a {
+            color: #4CAF50; /* Green */
+            text-decoration: none;
+        }
+    
+        a:hover {
+            color: #2E7D32; /* Dark Green */
+        }
+    
+        /* Navigation */
+        .navbar {
+            background-color: #4CAF50; /* Green */
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+        }
+    
+        .navbar a {
+            color: white;
+            margin: 0 15px;
+        }
+    
+        /* Header */
+        header {
+            text-align: center;
+            margin: 20px 0;
+        }
+    
+        .logo {
+            width: 100px;
+            border: 3px solid #4CAF50; /* Green */
+            border-radius: 50%; /* Circular Logo */
+        }
+    
+        /* Main Content */
+        .main-content {
+            background-color: #f0f0f0; /* Off White */
+            padding: 20px;
+            border-radius: 10px; /* Rounded Corners */
+            margin: 20px 0;
+        }
+    
+        /* Images */
+        .img-thumbnail {
+            border: 2px solid #4CAF50; /* Green */
+            border-radius: 10px; /* Rounded Corners */
+            margin: 10px;
+        }
+    
+    
+        /* Container and Main Section Styling */
+        .container main {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+    
+        /* Project Section Styling */
+        .project {
+            background-color: #E8F5E9; /* Light Green */
+            margin: 15px;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+    
+        .project img {
+            width: 9cm;
+            height: 6cm;
+            border-radius: 20px;
+            border: #4CAF50;
+            border-style: double;
+            
+        }
+    
+        .project p {
+            margin-top: 10px;
+            color: #333;
+        }
+    
+        h1 {
+            color: #4CAF50; /* Green */
+        }
+    </style>
+    
+</head>
+<body>
+  <%- include('partials/header') %>
+  <div class="container">
+    <main>
+        <h1>My Projects</h1>
+        <div class="project">
+            <h2 style="font-style: bold; color: #137d17 ; font-size: larger; margin-top: 0.5cm;">1.Database for Bank-System</h2>
+            <img src="images/project1.png" alt="Project 1">
+            
+            <p>This project encompasses the creation of a streamlined and interconnected database design for a comprehensive banking system. It adeptly integrates crucial entities such as customers, various types of accounts, credit cards, and mortgages. The design assures seamless data management and operational efficiency, providing a foundation for enhanced customer service and financial transaction processing. By ensuring smooth interconnections between various financial facets, the database stands as a beacon of technological advancement in bolstering banking operations, marking a significant stride towards optimal financial management and customer satisfaction.</p>
+        </div>
+         <div class="project">
+            <h2 style="font-style: bold; color: #137d17 ; font-size: larger; margin-top: 0.5cm;">2.List of premiers</h2>
+            <img src="./images/project2.png" alt="Project 2">
+            <p>In this innovative project, a highly interactive and user-friendly form is developed using the robust C# language. The form features a comprehensive list of premier names. Upon selecting a name from the list, users are immediately presented with a photograph of the selected premier, efficiently displayed alongside essential information including their birth and death years in brackets. The form further enhances its informational delivery by providing the exact tenure, listing the starting and ending dates of the premier's term. This efficient and seamless integration of visual and textual data ensures an enriching user experience, offering immediate access to historical and political data with simple navigation and selection. This project epitomizes the union of effortless design and functional richness, reflecting a commitment to accessibility and user-centered innovation.</p>
+        </div> 
+        
+    </main>
+  </div>
+  <%- include('partials/footer') %>
+</body>
+</html>

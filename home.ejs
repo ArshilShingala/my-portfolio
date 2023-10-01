@@ -1,0 +1,95 @@
+<!--  
+   File Name: projects.ejs
+   Student’s Name: Arshil Shingala
+   StudentID: 301318550
+   Date: 09/24/2023
+ -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            /* Reset some default styles in browsers */
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+        
+            /* Apply a background color to the body */
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                background-color: #E8F5E9;
+                color: #333;
+                padding: 1%;
+            }
+        
+            /* Style the main content */
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 2rem;
+            }
+        
+            h1 {
+                color: #2E7D32; /* Dark Green Text */
+                font-size: 2rem;
+                text-align: center;
+                margin-bottom: 0.8cm;
+            }
+        
+            p {
+                font-size: 1rem;
+                margin-bottom: 1rem;
+                color: #555;
+                margin-top: 2%;
+            }
+        
+            footer {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 0.8em;
+                background-color: #C8E6C9;
+                padding: 10px;
+                border-radius: 5px;
+            }
+
+            .rounded-image {
+                border-radius: 15px; /* Rounded corners */
+                float: left; /* Float the image to the left */
+                height: 6cm;
+                width: 9cm;
+                margin-right: 20px; /* Add some space between the image and the text */
+            }
+
+            .rounded-image-end {
+                border-radius: 15px; /* Rounded corners */
+                float: right; /* Float the image to the right */
+                margin-left: 20px; /* Add some space between the image and the text */
+                height: 6cm;
+                width: 9cm;
+                margin-bottom: 5cm;
+            }
+        </style>
+        
+    </head>
+    
+<body>
+    <%- include('partials/header') %>
+  <div class="container">
+      <div class="header">
+          <h1>Welcome to My Portfolio Website</h1>
+      </div>
+      
+      <img src="images/home-1.jpg" alt="Image description" class="rounded-image" width="100" height="100">
+      <p>Welcome to the gateway of innovative and seamless digital solutions! This website stands as a mirror reflecting my dedication, expertise, and the sheer passion I channel into every project I embark upon. As you navigate through these pages, you will embark on a journey that showcases a perfect blend of aesthetic appeal, functionality, and cutting-edge technology.</p>
+      <p>In the Home Page, acquaint yourself with my mission and vision, understanding the driving forces behind my commitment to delivering unmatched web solutions. Be it dynamic web development, effective data management, or seamless user experience, I offer a spectrum of services meticulously detailed in the Services Page. Explore my multifaceted skills and the state-of-the-art tools and technologies I harness to transform your digital presence.</p>
+      <p>Curious about my previous undertakings? The Projects Page stands as a portfolio, highlighting the diverse projects I have successfully completed, each echoing my attention to detail, innovative approach, and unwavering commitment to client satisfaction. In the About Me Page, delve deeper into my professional journey, learning about the milestones I have crossed and the expertise I bring to the table.</p>
+      <p>Wish to get in touch? The Contact Page provides you with all the necessary information to connect with me. Your feedback, inquiries, and suggestions are always welcomed with utmost warmth and consideration.</p>
+      <p>Embark on this digital expedition and discover how I can be the architect of your robust, responsive, and radiant online presence. This website is not just a platform; it’s a testament to my dedication to excellence, innovation, and your unparalleled satisfaction. Welcome aboard, and let's navigate the realms of digital possibilities together!</p>
+     
+      <footer>Thank you for visiting my portfolio!</footer>
+      
+  </div>
+</body>
+</html>
